@@ -1,0 +1,17 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.venv/
+
+# Data
+data/*.csv
+
+# Jupyter
+.ipynb_checkpoints/
+
+.claude/
+project_idea.md
