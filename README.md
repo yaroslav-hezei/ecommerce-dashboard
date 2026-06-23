@@ -4,11 +4,11 @@ An interactive Streamlit dashboard for exploring sales trends, product performan
 
 ## Screenshot
 
-TODO: add a screenshot of the live dashboard once deployed.
+![Sales Dashboard Overview](images/image.png)
 
 ## Live Demo
 
-TODO: add the Streamlit Cloud URL once deployed.
+https://ecommerce-dashboard-jjqt3rywhh6gl9ukyaagfl.streamlit.app/
 
 ## Dashboard Pages
 
