@@ -138,7 +138,7 @@ with col_right:
 
 # --- Row 4: Revenue by state (top 10) ---
 top10_revenue_by_state = revenue_by_state[revenue_by_state['customer_state'].isin(top10_states)]
-top10_revenue_by_state = top10_revenue_by_state.sort_values(by='price', ascending=False)  # descending — vertical bar, не horizontal
+top10_revenue_by_state = top10_revenue_by_state.sort_values(by='price', ascending=False)  # descending — vertical bar, not horizontal
 
 revenue_state_fig = px.bar(
     top10_revenue_by_state,
