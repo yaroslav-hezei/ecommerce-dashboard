@@ -14,4 +14,3 @@ data/*.csv
 .ipynb_checkpoints/
 
 .claude/
-project_idea.md
