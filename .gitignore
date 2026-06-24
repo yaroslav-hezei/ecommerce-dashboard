@@ -7,9 +7,6 @@ wheels/
 *.egg-info
 .venv/
 
-# Data
-data/*.csv
-
 # Jupyter
 .ipynb_checkpoints/
 
