@@ -65,6 +65,15 @@ pip install -r requirements.txt
 streamlit run Overview.py
 ```
 
+Or, using [uv](https://github.com/astral-sh/uv) for faster, reproducible installs from the lock file:
+
+```bash
+git clone https://github.com/yaroslav-hezei/ecommerce-dashboard.git
+cd ecommerce-dashboard
+uv sync
+uv run streamlit run Overview.py
+```
+
 The dataset CSVs are committed to the repo, so no manual download is needed.
 
 ## Project Structure
